@@ -34,7 +34,7 @@ def return_int(sample: str):
 if __name__ == "__main__":
     outputs = []
     
-    with open("day1_data2", 'r') as dataset:
+    with open("data", 'r') as dataset:
         data = dataset.read().splitlines()
 
         for i in data:
